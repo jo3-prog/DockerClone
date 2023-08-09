@@ -1,0 +1,1327 @@
+:root {
+  --primary-color: #003f8c;
+}
+
+/** {
+  outline: 1px solid limegreen;
+}*/
+body {
+  background: white;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: var(--primary-color);
+  padding: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.navbar .logo {
+  width: 150px;
+}
+.navbar .mobile-menu {
+  width: 50px;
+  cursor: pointer;
+}
+.navbar nav {
+  display: none;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+  background: var(--primary-color);
+  color: white;
+  padding-bottom: 210px;
+  height: 21.2em;
+}
+.hero h1 {
+  font: 38px "Roboto", sans-serif;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.hero p.hero-text {
+  font-size: 25px;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom: 0;
+  color: #bed8fd;
+  line-height: 0.9em;
+}
+.hero a.survey {
+  color: #bed8fd;
+}
+.hero a.survey:hover {
+  text-decoration: underline;
+}
+.hero button, .hero .device {
+  display: none;
+}
+
+section.docker-con {
+  background: #e9ebee;
+  text-align: left;
+  padding-bottom: 100px;
+}
+section.docker-con .docker {
+  width: 95%;
+  background: white;
+  border-radius: 10px;
+  margin: -11.2em 10px 0 -10px;
+  padding: 17px 18px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+section.docker-con .docker .docker-img {
+  width: 21.5em;
+}
+section.docker-con .docker .docker-img img {
+  width: 100%;
+}
+section.docker-con .docker p.join {
+  color: #2496ed;
+  margin-top: 25px;
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+section.docker-con .docker h2 {
+  text-align: left;
+  margin-top: 1.5px;
+  padding: 0;
+  margin-left: 0;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 1.5em;
+  color: #0b214a;
+  margin-bottom: 0;
+}
+section.docker-con .docker p.docker-text {
+  font-family: "Roboto";
+  margin-top: -1px;
+  line-height: 1.7em;
+  font-weight: 400;
+  padding-right: 36px;
+}
+section.docker-con .docker .learn-more a {
+  color: #0055bd;
+  padding-left: 8px;
+  font-family: "Roboto";
+}
+section.docker-con .docker .learn-more img {
+  width: 27px;
+}
+section.docker-con h2 {
+  padding: 90px 0 30px 0;
+  margin: 0 22px 0 22px;
+  font-family: "poppins";
+  font-size: 44px;
+  font-weight: 500;
+  color: #0b214a;
+  text-align: center;
+  line-height: 1.1em;
+}
+section.docker-con .millions {
+  text-align: center;
+  margin-top: 50px;
+}
+section.docker-con .millions div {
+  display: inline-block;
+  margin-top: 8px;
+}
+section.docker-con .millions div h3 {
+  font-size: 2.7em;
+  color: #0b214a;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-family: "Roboto";
+}
+section.docker-con .millions div p {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Roboto";
+}
+section.docker-con .get {
+  text-align: center;
+  margin-top: 35px;
+}
+section.docker-con .get a {
+  background: #0073ec;
+  border-radius: 5px;
+  padding: 18px 55px;
+  font-weight: bold;
+  font-family: "Roboto";
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+section.docker-con .get a:hover {
+  background-color: #2f54a3;
+  text-decoration: none;
+}
+
+section.dev-area {
+  background: white;
+  padding-top: 50px;
+}
+section.dev-area .text {
+  text-align: center;
+  font-family: "poppins";
+}
+section.dev-area .text h2 {
+  padding-bottom: 10px;
+  color: rgb(11, 33, 74);
+  font-size: 42px;
+  line-height: 48.4px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+section.dev-area .text p {
+  margin-top: 0;
+  line-height: 38px;
+  font-size: 28px;
+  color: rgb(11, 33, 74);
+}
+section.dev-area .build img {
+  width: 100%;
+}
+section.dev-area .build div {
+  text-align: left;
+}
+section.dev-area .build div h3 {
+  font-size: 44px;
+  color: rgb(11, 33, 74);
+  font-weight: 500;
+  line-height: 52.8px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+section.dev-area .build div ul {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+section.dev-area .build div li {
+  font-family: "roboto";
+  color: rgb(105, 122, 137);
+  padding-top: 0;
+  list-style-type: disc;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+section.dev-area .share img {
+  width: 100%;
+}
+section.dev-area .share div {
+  text-align: left;
+}
+section.dev-area .share div h3 {
+  font-size: 44px;
+  color: rgb(11, 33, 74);
+  font-weight: 500;
+  line-height: 52.8px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+section.dev-area .share div ul {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+section.dev-area .share div li {
+  font-family: "roboto";
+  color: rgb(105, 122, 137);
+  padding-top: 0;
+  list-style-type: disc;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+section.dev-area .run img {
+  width: 100%;
+}
+section.dev-area .run div {
+  text-align: left;
+}
+section.dev-area .run div h3 {
+  font-size: 44px;
+  color: rgb(11, 33, 74);
+  font-weight: 500;
+  line-height: 52.8px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+section.dev-area .run div ul {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+section.dev-area .run div li {
+  font-family: "roboto";
+  color: rgb(105, 122, 137);
+  padding-top: 0;
+  list-style-type: disc;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+
+section.containers {
+  background: #003f8c;
+  padding-top: 0.5em;
+}
+section.containers .new {
+  margin-bottom: 30px;
+  padding-top: 32px;
+}
+section.containers .new h2 {
+  color: white;
+  font-size: 54px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  line-height: 1.1em;
+}
+section.containers .new p {
+  margin-top: 0;
+  margin-bottom: 45px;
+  line-height: 38.4px;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+section.containers .link {
+  margin-top: 0;
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+section.containers .link img {
+  margin-right: 12px;
+}
+section.containers .link:hover {
+  -webkit-text-decoration: white underline;
+          text-decoration: white underline;
+}
+
+section.community {
+  background: white;
+  padding: 45px 0;
+  margin: 0 45px;
+}
+section.community h2 {
+  color: rgb(11, 33, 74);
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.1em;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+section.community p {
+  margin-top: 0;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: rgb(11, 33, 74);
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+section.community button {
+  border: none;
+  background: #003f8c;
+  padding: 1.2em 5.2em;
+  border-radius: 5px;
+  margin-top: 32px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, -webkit-text-decoration 0.2s;
+  transition: background-color 0.2s, color 0.2s, text-decoration 0.2s;
+  transition: background-color 0.2s, color 0.2s, text-decoration 0.2s, -webkit-text-decoration 0.2s;
+}
+section.community button a {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+section.community button:hover {
+  background-color: #e9ebee;
+}
+section.community button:hover a {
+  color: #0073ec;
+  text-decoration: none;
+}
+section.community img {
+  display: none;
+}
+
+section.tools {
+  background: #e9ebee;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2.5em;
+}
+section.tools h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: rgb(11, 33, 74);
+  margin: 0 33px;
+  padding: 30px 0;
+  line-height: 1.1em;
+  letter-spacing: -1px;
+}
+section.tools img {
+  width: 50%;
+}
+
+section.subscription {
+  padding-top: 3em;
+}
+section.subscription h2 {
+  font-size: 2.7em;
+  font-weight: 500;
+  color: rgb(11, 33, 74);
+  text-align: center;
+  line-height: 1.1em;
+  margin-bottom: 0.3em;
+}
+section.subscription p {
+  color: rgb(11, 33, 74);
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+section.subscription a {
+  color: #0055bd;
+  transition: color 0.2s;
+}
+section.subscription a:hover {
+  text-decoration: underline;
+  color: rgb(11, 33, 74);
+}
+
+section.docker-users {
+  text-align: center;
+  background: #e9ebee;
+  padding-bottom: 1.5em;
+}
+section.docker-users h2 {
+  color: rgb(11, 33, 74);
+  font-size: 2.7em;
+  font-weight: 500;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+section.docker-users div {
+  padding-bottom: 0;
+}
+section.docker-users div img {
+  width: 50%;
+}
+section.docker-users h3 {
+  padding-top: 50px;
+  color: rgb(11, 33, 74);
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 0;
+}
+section.docker-users p.trust {
+  margin-top: 0;
+  font-size: 28px;
+  line-height: 38px;
+  color: rgb(11, 33, 74);
+  padding-top: 10px;
+}
+
+section.partner {
+  background: #e9ebee;
+  padding-top: 0;
+}
+section.partner .partners {
+  text-align: center;
+}
+section.partner .partners .aws {
+  width: 55%;
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  padding: 100px 30px 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+section.partner .partners .aws img {
+  margin-bottom: 100px;
+  width: 100%;
+  margin-top: 0;
+}
+section.partner .partners .aws p {
+  text-align: left;
+  margin-bottom: 100px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto";
+}
+section.partner .partners .aws a {
+  color: #0055bd;
+  float: left;
+  margin-top: 0;
+  font-family: "Roboto";
+}
+section.partner .partners .aws a:hover {
+  color: #003f8c;
+}
+section.partner .partners .aws a:hover span {
+  text-decoration: underline;
+}
+section.partner .partners .azure {
+  width: 55%;
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  padding: 100px 30px 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+section.partner .partners .azure img {
+  margin-bottom: 100px;
+  width: 100%;
+  margin-top: 0;
+}
+section.partner .partners .azure p {
+  text-align: left;
+  margin-bottom: 100px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto";
+}
+section.partner .partners .azure a {
+  color: #0055bd;
+  float: left;
+  margin-top: 0;
+  font-family: "Roboto";
+}
+section.partner .partners .azure a:hover {
+  color: #003f8c;
+}
+section.partner .partners .azure a:hover span {
+  text-decoration: underline;
+}
+section.partner .partners .snyk {
+  width: 55%;
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  padding: 100px 30px 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+section.partner .partners .snyk img {
+  margin-bottom: 100px;
+  width: 100%;
+  margin-top: 0;
+}
+section.partner .partners .snyk p {
+  text-align: left;
+  margin-bottom: 100px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto";
+}
+section.partner .partners .snyk a {
+  color: #0055bd;
+  float: left;
+  margin-top: 0;
+  font-family: "Roboto";
+}
+section.partner .partners .snyk a:hover {
+  color: #003f8c;
+}
+section.partner .partners .snyk a:hover span {
+  text-decoration: underline;
+}
+section.partner .partners .jfrog {
+  width: 55%;
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  padding: 50px 30px 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+section.partner .partners .jfrog img {
+  margin-bottom: 50px;
+  width: 100%;
+  margin-top: 0;
+}
+section.partner .partners .jfrog p {
+  text-align: left;
+  margin-bottom: 100px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto";
+}
+section.partner .partners .jfrog a {
+  color: #0055bd;
+  float: left;
+  margin-top: 0;
+  font-family: "Roboto";
+}
+section.partner .partners .jfrog a:hover {
+  color: #003f8c;
+}
+section.partner .partners .jfrog a:hover span {
+  text-decoration: underline;
+}
+
+.partner-button {
+  text-align: center;
+}
+.partner-button button {
+  margin-top: 2.5em;
+  border: none;
+  border-radius: 5px;
+  background: #0073ec;
+  padding: 20px 50px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.partner-button button:hover {
+  background: #0055bd;
+}
+
+section.path h2 {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #0b214a;
+  text-align: center;
+  padding-top: 10px;
+}
+section.path ul {
+  margin-top: 24px;
+  padding: 0 0 24px 0;
+}
+section.path div {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+section.path div img {
+  width: 55px;
+  height: 55px;
+}
+section.path div p {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: #0b214a;
+  line-height: 32px;
+  margin: 0;
+  padding-top: 0;
+  padding-left: 25px;
+}
+section.path div p a {
+  color: #0055bd;
+}
+section.path div p a:hover {
+  text-decoration: underline;
+  color: #0b214a;
+}
+section.path .get-started-free {
+  display: block;
+  text-align: center;
+  margin-top: 0;
+}
+section.path .get-started-free button {
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: none;
+  background: #003f8c;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+section.path .get-started-free button:hover {
+  background-color: #e9ebee;
+}
+section.path .get-started-free button:hover a {
+  color: #0073ec;
+}
+
+section.accelerate {
+  background: #2496ed;
+  padding: 5em 1em;
+}
+section.accelerate h2 {
+  padding: 50px 0;
+  margin: 0 0px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+footer {
+  padding: 5em 2em;
+  background: #002a64;
+  /*.pa {
+    display: flex;
+  }
+
+  .dpb {
+    display: flex;
+    padding-bottom: 42px;
+  }*/
+}
+footer .logo {
+  width: 35%;
+  margin-bottom: 25px;
+}
+footer a {
+  color: #7eb0fb;
+  display: block;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 26px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .product {
+  padding-top: 10px;
+}
+footer .product .product-head {
+  color: white;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+footer .developer {
+  padding-top: 10px;
+}
+footer .developer .developer-head {
+  color: white;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+footer .about {
+  padding-top: 10px;
+}
+footer .about .aboutus-head {
+  color: white;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+footer .pricing {
+  padding-top: 10px;
+}
+footer .pricing .pricing-head {
+  color: white;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+footer .blog {
+  color: white;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  padding-bottom: 42px;
+}
+footer .copy {
+  padding: 0 2em;
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+}
+footer .copy p {
+  font-size: 12px;
+}
+footer .copy a {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+}
+footer .copy a img {
+  margin: 10px 10px;
+}
+footer .cookie {
+  text-align: center;
+}
+footer button {
+  border: 1px solid #68b631;
+  padding: 5px 25px;
+  margin-top: 20px;
+}
+footer button a {
+  color: #68b631;
+  font-family: "Roboto";
+  font-size: 12px;
+  text-decoration: none;
+}
+footer button:hover {
+  background: #68b631;
+}
+footer button:hover a {
+  color: white;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  background: #2496ed;
+  position: absolute;
+  width: 87%;
+  height: 44%;
+  right: 0;
+  margin-top: 4em;
+  padding: 2em;
+}
+
+ul.nav-list {
+  margin-top: 5em;
+}
+
+li {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+li a {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  margin-right: 20px;
+}
+
+.gs {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 23px;
+  transition: 0.2s background-color;
+}
+.gs:hover {
+  color: #003f8c;
+  background-color: white;
+}
+
+@media screen and (min-width: 320px) {
+  section.docker-con .docker .docker-img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav {
+    width: 92%;
+  }
+  section.hero {
+    padding-bottom: 410px;
+  }
+  section.hero h1 {
+    font-size: 62px;
+  }
+  section.hero p.hero-text {
+    font-size: 26px;
+    line-height: 24px;
+  }
+  section.hero button {
+    margin-top: 25px;
+    margin-bottom: 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background: #0073ec;
+    padding: 2em 5em;
+  }
+  section.hero button a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  section.hero button p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  section.hero .device {
+    display: block;
+  }
+  section.hero .device ul {
+    margin-top: 25px;
+    display: flex;
+    place-content: center;
+  }
+  section.hero .device ul li {
+    border: none;
+    padding: 20px;
+  }
+  section.docker-con .docker {
+    width: 97%;
+  }
+  section.docker-con .docker .docker-img {
+    width: 100%;
+  }
+  section.docker-con .mill {
+    text-align: center;
+  }
+  section.docker-con .millions {
+    display: inline-block;
+    text-align: center;
+  }
+  section.docker-con .millions div {
+    text-align: left;
+    display: block;
+  }
+  section.tools .images {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+  }
+  section.tools .images img {
+    width: 80%;
+  }
+  section.tools .images .tanzu {
+    width: 50%;
+  }
+  section.docker-users {
+    padding-bottom: 80px;
+  }
+  section.docker-users .users {
+    display: inline-block;
+    width: 65%;
+  }
+  section.docker-users .users .user {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+  }
+  section.partner {
+    padding: 2em 2em 0 2em;
+  }
+  section.partner .partners {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  section.partner .partners .aws {
+    width: 80%;
+  }
+  section.partner .partners .azure {
+    width: 75%;
+    margin-left: 10px;
+  }
+  section.partner .partners .azure img {
+    margin: 55px auto 130px;
+  }
+  section.partner .partners .azure p {
+    margin-top: 60px;
+  }
+  section.partner .partners .snyk {
+    width: 80%;
+  }
+  section.partner .partners .snyk p {
+    margin-bottom: 125px;
+  }
+  section.partner .partners .jfrog {
+    width: 75%;
+    margin-left: 10px;
+  }
+  section.partner .partners .jfrog img {
+    margin-bottom: 85px;
+  }
+  section.partner .partners .jfrog p {
+    margin-bottom: 125px;
+  }
+  button {
+    margin-top: 0;
+  }
+  section.path {
+    padding: 5em 4em;
+  }
+  section.accelerate {
+    padding: 5em 4em;
+  }
+  section.accelerate h2 {
+    font-size: 54px;
+  }
+  footer .services {
+    padding-bottom: 84px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  footer .logo {
+    margin-bottom: 0;
+    width: 20%;
+  }
+  footer .copy img {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .mobile-menu {
+    display: none;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  section {
+    padding: 10em 4em;
+  }
+  .navbar .container {
+    display: flex;
+  }
+  .navbar .container img.logo {
+    padding: 0 25px 0 0;
+  }
+  .navbar nav {
+    display: inline-block;
+    background: none;
+    margin: 0px;
+    padding: 0;
+    position: unset;
+  }
+  .navbar nav ul {
+    display: flex;
+  }
+  .navbar nav ul li {
+    border: none;
+    padding: 10px 0;
+  }
+  .navbar nav ul li a {
+    padding: 30px 6px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 0px;
+  }
+  .navbar nav .nav-list {
+    display: flex;
+    place-content: space-between;
+  }
+  .navbar nav .nav-list a {
+    margin-right: 20px;
+  }
+  .navbar nav .nav-list .secondary-nav li.gs-button {
+    padding-top: 0;
+    margin: -6px 0 0px;
+  }
+  .navbar nav .nav-list .secondary-nav .gs {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 0;
+    padding: 10px 20px;
+  }
+  section.hero {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  section.hero h1 {
+    font-size: 80px;
+    margin: 0;
+  }
+  section.hero h1 br {
+    display: none;
+  }
+  section.docker-con .docker {
+    width: 100%;
+    margin: -15em 10px 0 -20px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  section.docker-con .docker .docker-img img {
+    width: 100%;
+  }
+  section.docker-con .docker .dock-txt {
+    width: 100%;
+    margin-left: 30px;
+  }
+  section.docker-con .docker .dock-txt p.join {
+    margin-top: 0;
+  }
+  section.docker-con .millions {
+    display: flex;
+    margin-left: 0;
+    place-content: space-between;
+    padding: 0 25px;
+  }
+  section.docker-con .get {
+    margin-top: 60px;
+  }
+  section.dev-area .build {
+    display: flex;
+  }
+  section.dev-area .build img {
+    order: 2;
+    width: 425px;
+    height: 315px;
+  }
+  section.dev-area .share {
+    display: flex;
+  }
+  section.dev-area .share img {
+    width: 425px;
+    height: 315px;
+  }
+  section.dev-area .run {
+    display: flex;
+  }
+  section.dev-area .run img {
+    order: 2;
+    width: 425px;
+    height: 315px;
+  }
+  section.community {
+    display: flex;
+    margin: auto 102px;
+  }
+  section.community .top {
+    width: 50%;
+  }
+  section.community .top h2 {
+    margin-top: 0;
+  }
+  section.community .top button {
+    margin-bottom: 0;
+  }
+  section.community .comm {
+    width: 50%;
+  }
+  section.community .comm img {
+    display: inline-block;
+    width: 100%;
+  }
+  section.subscription {
+    padding-bottom: 48px;
+  }
+  section.subscription h2 {
+    font-size: 40px;
+  }
+  section.docker-users {
+    padding-top: 5em;
+  }
+  section.docker-users .users {
+    display: inline-block;
+    width: 85%;
+  }
+  section.docker-users .users .user {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  section.docker-users .users img {
+    width: 85%;
+  }
+  section.partner {
+    padding: 5em 2.5em;
+  }
+  section.partner .partners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  section.partner .partners .aws {
+    margin-right: 0;
+  }
+  section.partner .partners .azure {
+    margin-left: 0;
+  }
+  section.partner .partners .jfrog {
+    grid-column: 2;
+    margin-left: 0;
+  }
+  section.path ul.path-list {
+    margin: auto 7em;
+  }
+  footer .log {
+    display: flex;
+    place-content: space-between;
+  }
+  footer .log .logo {
+    width: 150px;
+    height: 39px;
+  }
+  footer .log .services {
+    width: 75%;
+  }
+  footer .log .product-head {
+    margin: 0;
+  }
+  footer .log .aboutus-head {
+    margin: 0;
+  }
+  footer .log .developer-head {
+    margin: 0;
+  }
+  footer .log .pricing-head {
+    margin: 0;
+  }
+  footer .copy {
+    display: flex;
+    place-content: space-between;
+    padding: 0;
+  }
+  footer .copy p {
+    order: 2;
+    float: right;
+    width: 30%;
+    text-align: right;
+  }
+  footer .copy .socials {
+    order: 1;
+    display: block;
+    float: right;
+  }
+  footer .cookie {
+    text-align: right;
+  }
+  footer .cookie button {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  section {
+    padding: 10em 5em;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .navbar {
+    padding: auto 6em;
+  }
+  .navbar img.logo {
+    padding-right: 55px;
+  }
+  section.hero br {
+    display: none;
+  }
+  section.docker-con .docker {
+    margin-top: -16em;
+  }
+  section.docker-con .docker .docker-img {
+    width: 30%;
+  }
+  section.docker-con h2 {
+    margin: 0 2em;
+  }
+  section.docker-con .millions {
+    margin: auto 5em;
+  }
+  section.dev-area {
+    padding-bottom: 2em;
+  }
+  section.dev-area .text {
+    margin: auto 6em;
+  }
+  section.dev-area .build img, section.dev-area .share img, section.dev-area .run img {
+    width: 50%;
+    height: 50%;
+  }
+  section.dev-area .build div, section.dev-area .share div, section.dev-area .run div {
+    width: 45%;
+  }
+  section.containers .new {
+    margin: auto 7em;
+  }
+  section.community {
+    padding-top: 5em;
+  }
+  section.community .top {
+    margin: auto 3em;
+    width: 50%;
+  }
+  section.community .comm {
+    width: 45%;
+  }
+  section.tools h2 {
+    font-size: 44px;
+  }
+  section.tools .images img {
+    width: 90%;
+  }
+  section.subscription h2 {
+    font-size: 44px;
+  }
+  section.docker-users .users .user {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  section.docker-users .users .user .yale {
+    grid-column: 3;
+  }
+  section.docker-users h3 {
+    margin: auto 2em;
+    font-size: 44px;
+  }
+  section.docker-users p {
+    margin: auto 4em;
+  }
+  section.partner {
+    text-align: center;
+  }
+  section.partner .partners {
+    margin: auto 7em;
+  }
+  section.partner .partners .aws, section.partner .partners .azure, section.partner .partners .snyk, section.partner .partners .jfrog {
+    width: 75%;
+  }
+  section.path {
+    padding: 10em 10em 5em;
+  }
+  section.accelerate {
+    padding: 5em 7em;
+  }
+  footer {
+    padding: 5em;
+  }
+}
+@media only screen and (min-width: 375px) {
+  section.docker-con .docker .docker-img {
+    width: 100%;
+  }
+}
+/*@media only screen and (min-width: 1440px) {
+  section.docker-con {
+    .docker {
+      width: 100%;
+
+      .docker-img {
+        width: 100%;
+      }
+    }
+  }
+}*//*# sourceMappingURL=dockerclone.css.map */
