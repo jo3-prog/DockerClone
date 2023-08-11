@@ -377,13 +377,12 @@
   </footer>
 
   <script>
-    const mobileBtn = document.getElementById('menu-open')
-          nav = document.querySelector('nav')
-          mobileBtnExit = document.getElementsByClassName('mobile-menu');
-      
-          mobileBtn.addEventListener('click', () => {
-          nav.classList.add('menu-btn');
-          });
+    const mobileBtn = document.getElementById('menu-open');
+          nav = document.querySelector('nav');
+
+          mobileBtn.onclick = () => {
+            nav.classList.toggle('menu-btn');
+          };
   </script>
 </body>
 </html>
